@@ -1,0 +1,48 @@
+# Build outputs
+build/
+cmake-build-*/
+out/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+
+# Binary artifacts
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.o
+*.obj
+*.a
+*.lib
+*.d
+
+# Generated IDE/index files
+compile_commands.json
+.cache/
+.settings/
+.vscode/
+
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local documents and render outputs
+*.docx
+*.pdf
+*.pptx
+*.xlsx
+rendered*/
+lo_*/
+pdf_png*/
+_pylibs/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+~$*
